@@ -1,5 +1,23 @@
-# Parsing_Check
-Parsing_Check.py 설명서
+# Parsing_Check.py
+
+## Description
+모바일 App 버전 ParsingCheck 입니다. <br />
+
+1) SiteInfoCreate.py <br />
+
+- 실행 시, SiteInfo.txt 파일에 자동적으로 현재 정상 작동중인 사이트의 SiteId와 주문리스트url을 DB에 불러와 저장합니다. <br />
+(초기화 후 다시 쓰는거라 잘못누르면 초기화됨) <br />
+
+2) SiteInfoMod.py  <br />
+
+- 실행 시, SiteInfo.txt 파일에 Siteid 와 주문리스트 url 옆에 로그인을 위해 필요한 정보( ID, PW, login xpath) 등을
+수정할 수 있습니다. <br />
+
+3) Parsing_Check.py (메인 파일) <br />
+
+- 실행 시에, SiteInfo.txt 파일에 있는 모든 사이트를 순차적으로 검사합니다. <br />
+
+- 구체적으로 21 과 22 의 DB 파싱데이터가 제대로 파싱되는 건지 셀레늄을 활용하여서 검사하도록 합니다. <br />
 
 ## 실행방법:
 0) 필수 모듈 설치: <br />
