@@ -2,10 +2,10 @@
 Parsing_Check.py 설명서
 
 ## 실행방법:
-0) 필수 모듈 설치:
--pip install selenium
--pip install requests
--pip install chromedriver-autoinstaller
+0) 필수 모듈 설치: <br />
+-pip install selenium <br />
+-pip install requests <br />
+-pip install chromedriver-autoinstaller <br />
 
 1) App 테스트 할 시, SiteInfo.txt 파일에 원하는 사이트의 정보를 나열한다. (이 때, 원하지 않은 사이트는 앞에 
    #을 붙여준다.) <br /> -사이트 정보 참고 파일: DataSave1.txt <br />
